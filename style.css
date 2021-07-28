@@ -22,8 +22,32 @@ p {
     padding: 0;
 }
 
+/* this is navigation style   bonus - 1 */
+
+.navigation {
+    margin-bottom: 5%;
+}
+
+.navigation img {
+    width: 80px;
+}
+
+.nan-image {
+    width: 80%;
+}
+
+.nav-descriction ul li {
+    list-style: none;
+}
+
+.nav-descriction ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+}
+
 .hero-btn {
-    padding: 10px 30px;
+    padding: 15px 40px;
     background-image: linear-gradient(rgb(0, 255, 21), rgb(255, 196, 0));
     border: none;
     box-shadow: 1px 1px 30px lightgray;
@@ -39,16 +63,6 @@ p {
     color: orange;
 }
 
-
-
-
-
-
-
-
-
-
-
 .half-width {
     width: 50%;
     margin-left: 5%;
@@ -58,6 +72,8 @@ p {
     display: flex;
 }
 
+/* this is first banar style */
+
 .first-banar {
     align-items: center;
     margin-bottom: 5%;
@@ -66,6 +82,8 @@ p {
 .first-banar img {
     width: 90%;
 }
+
+/* this is second banar style */
 
 .second-banar {
     margin-bottom: 5%;
@@ -77,6 +95,7 @@ p {
 }
 
 
+/* this is recipies  style */
 
 .recipies {
     margin-bottom: 5%;
@@ -89,6 +108,8 @@ p {
 .recipies h2 {
     color: rgb(90, 90, 90);
 }
+
+/* this is card style */
 
 .card {
     width: 400px;
@@ -109,6 +130,8 @@ p {
     margin-left: 10%;
 }
 
+/* this is online activities style */
+
 .online {
     width: 80%;
     margin: auto;
@@ -121,23 +144,48 @@ p {
     justify-content: space-between;
 }
 
+/* this is contract style   bonus - 2 */
 
+.contract-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.contract-text h3 {
+    color: rgb(90, 90, 90);
+}
 
+.contract-aria {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
 
+.contract-aria input,
+textarea {
+    width: 100%;
+    padding: 17px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    box-shadow: 1px 1px 30px rgb(246, 246, 246);
+    border-radius: 5px;
+    font-size: 16px;
+}
 
+/* this is map style   bonus - 2 */
 
+.map {
+    width: 80%;
+    margin: auto;
+}
 
+.map iframe {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
 
-
-
-
-
-
-
-
-
-
+/* this is footer style */
 
 .footer {
     height: 250px;
